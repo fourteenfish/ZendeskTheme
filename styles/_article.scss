@@ -61,7 +61,9 @@
   }
 
   [role="button"] {
-    @include tablet { width: auto; }
+    @include tablet {
+      width: auto;
+    }
     flex-shrink: 0; /*Avoid collapsing elements in Safari (https://github.com/philipwalton/flexbugs#1-minimum-content-sizing-of-flex-items-not-honored)*/
     width: 100%;
   }
@@ -77,7 +79,9 @@
 
   &-body {
     @include content-body;
-    > p:last-child { margin-bottom: 0; }
+    > p:last-child {
+      margin-bottom: 0;
+    }
   }
 
   &-content {
@@ -95,7 +99,7 @@
 
   &-comment-count {
     color: $secondary-text-color;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-base;
 
     &:hover {
       text-decoration: none;
@@ -140,12 +144,15 @@
       overflow-wrap: break-word;
       margin-right: 0;
 
-      &:last-child { padding: 0; }
+      &:last-child {
+        padding: 0;
+      }
 
-      @include tablet { padding-right: 20px; }
+      @include tablet {
+        padding-right: 20px;
+      }
     }
   }
-
 
   &-votes {
     border-top: 1px solid $border-color;
@@ -208,7 +215,9 @@
   }
 
   &-return-to-top {
-    @include desktop { display: none; }
+    @include desktop {
+      display: none;
+    }
 
     border-top: 1px solid $border-color;
 
@@ -255,7 +264,7 @@
     border-radius: 4px;
     color: $text_color;
     display: block;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-base;
     margin-bottom: 10px;
     padding: 10px;
 

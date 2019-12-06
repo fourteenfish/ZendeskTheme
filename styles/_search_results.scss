@@ -48,7 +48,9 @@
       &[aria-expanded="false"] {
         .multibrand-filter-list {
           display: none;
-          @include desktop { display: block; }
+          @include desktop {
+            display: block;
+          }
         }
       }
     }
@@ -78,7 +80,7 @@
       }
 
       &::after {
-        content: ' \2304';
+        content: " \2304";
         font-weight: bold;
       }
     }
@@ -105,18 +107,24 @@
 
   .meta-group {
     display: block;
-    @include desktop { display: flex; }
+    @include desktop {
+      display: flex;
+    }
     align-items: center;
     clear: both;
     color: #666;
 
     > li {
       display: block;
-      @include desktop { display: inline }
+      @include desktop {
+        display: inline;
+      }
     }
 
     li:first-child {
-      @include desktop { flex: 1; }
+      @include desktop {
+        flex: 1;
+      }
     }
 
     .meta-data {
@@ -145,7 +153,6 @@
 }
 
 .search-result {
-
   &-title {
     font-size: $font-size-bigger;
     display: inline-block;
@@ -166,7 +173,7 @@
     color: $secondary-text-color;
     display: inline-block;
     font-size: $font-size-small;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-base;
     padding: 4px 5px;
     position: relative;
 
@@ -197,14 +204,20 @@
   }
 
   &-breadcrumbs {
-    @include desktop { display: table-row; }
+    @include desktop {
+      display: table-row;
+    }
     margin: 0;
 
     li {
-      @include desktop { display: table-cell; }
+      @include desktop {
+        display: table-cell;
+      }
     }
 
-    li, li a, li a:visited {
+    li,
+    li a,
+    li a:visited {
       color: inherit;
     }
   }

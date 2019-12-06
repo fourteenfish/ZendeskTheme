@@ -32,7 +32,9 @@
       text-decoration: underline;
     }
 
-    &:visited { color: $visited-link-color; }
+    &:visited {
+      color: $visited-link-color;
+    }
   }
 
   .meta-group {
@@ -47,7 +49,7 @@
     }
 
     color: $secondary-text-color;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-base;
     font-size: $font-size-small;
     justify-content: flex-start;
     text-transform: capitalize;
@@ -55,14 +57,18 @@
 
   &-count-item {
     &::after {
-      @include tablet { display: none; }
+      @include tablet {
+        display: none;
+      }
 
       content: "·";
       display: inline-block;
       padding: 0 5px;
     }
 
-    &:last-child::after { display: none; }
+    &:last-child::after {
+      display: none;
+    }
   }
 
   &-number {
@@ -72,7 +78,7 @@
       font-weight: $font-weight-base;
     }
 
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-base;
     text-align: center;
   }
 }

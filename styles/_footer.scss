@@ -4,7 +4,9 @@
   margin-top: 60px;
   padding: 30px 0;
 
-  a { color: $secondary-text-color; }
+  a {
+    color: $secondary-text-color;
+  }
 
   &-inner {
     @include max-width-container;
@@ -15,6 +17,6 @@
   &-language-selector {
     color: $secondary-text-color;
     display: inline-block;
-    font-weight: $font-weight-light;
+    font-weight: $font-weight-base;
   }
 }
