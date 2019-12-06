@@ -1,14 +1,16 @@
 // Variables
 
 // Colors
-$brand_color: #0072ef !default;
-$brand_text_color: #fff !default; //Color for text with an accent color background
+$pink: #cf2d81 !default;
+$white: #fff !default; //Color for text with an accent color background
 $text_color: #333 !default;
 $link_color: #0072ef !default;
 $background_color: #fff !default;
+$purple: #8b1b7a;
+$pinkpurple: mix($pink, $purple, 60%);
 
 $visited-link-color: zass-darken($link_color, 20%);
-$hover-button-color: zass-darken($brand_color, 20%);
+$hover-button-color: zass-darken($pink, 20%);
 $secondary-text-color: zass-lighten($text_color, 20%);
 
 $primary-shade: zass-darken(
@@ -28,7 +30,7 @@ $font-size-smaller: 11px;
 
 $border-color: #ddd;
 
-$button-color: $brand_color;
+$button-color: $pink;
 
 $input-font-size: 14px;
 $field-text-color: #999;

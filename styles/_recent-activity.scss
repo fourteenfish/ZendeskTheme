@@ -73,7 +73,7 @@
 
     span::before {
       @extend .icon;
-      color: $brand_color;
+      color: $pink;
       content: "\1F4AC";
       display: inline-block;
       font-size: $font-size-base;

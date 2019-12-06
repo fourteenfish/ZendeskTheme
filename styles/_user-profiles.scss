@@ -90,12 +90,12 @@
 }
 
 .profile-header .options [data-action="edit-profile"] {
-  background-color: $brand_color;
+  background-color: $pink;
   border: 0;
-  color: $brand_text_color;
+  color: $white;
   line-height: normal;
   padding: 8px 20px;
-  outline-color: $brand_color;
+  outline-color: $pink;
 }
 
 .profile-header .description {
@@ -224,9 +224,9 @@
 
 .profile-private-badge {
   flex-basis: 100%;
-  border: solid 1px $brand_color;
+  border: solid 1px $pink;
   border-radius: 4px;
-  color: $brand_color;
+  color: $pink;
   padding: 5px 20px;
   font-size: 12px;
   text-align: center;

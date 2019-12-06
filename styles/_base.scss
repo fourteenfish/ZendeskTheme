@@ -70,7 +70,7 @@ input {
   transition: border 0.12s ease-in-out;
 
   &:focus {
-    border: 1px solid $brand_color;
+    border: 1px solid $pink;
   }
 }
 
@@ -91,7 +91,7 @@ select {
   width: 100%;
 
   &:focus {
-    border: 1px solid $brand_color;
+    border: 1px solid $pink;
   }
 
   &::-ms-expand {
@@ -108,7 +108,7 @@ textarea {
   padding: 10px;
 
   &:focus {
-    border: 1px solid $brand_color;
+    border: 1px solid $pink;
   }
 }
 

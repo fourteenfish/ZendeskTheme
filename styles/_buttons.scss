@@ -26,8 +26,8 @@
   &:active,
   &:focus,
   &[aria-selected="true"] {
-    background-color: $brand_color;
-    color: $brand_text_color;
+    background-color: $pink;
+    color: $white;
     text-decoration: none;
   }
 
@@ -53,7 +53,7 @@
   background-color: $button-color;
   border: 0;
   border-radius: 4px;
-  color: $brand_text_color;
+  color: $white;
   font-size: 14px;
   font-weight: $font-weight-base;
   line-height: 2.72;

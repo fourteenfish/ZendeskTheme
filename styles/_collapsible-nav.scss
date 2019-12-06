@@ -43,7 +43,7 @@
 
   &:focus {
     outline: none;
-    border: 1px solid $brand_color;
+    border: 1px solid $pink;
   }
 }
 
@@ -107,7 +107,7 @@
   li[aria-selected="true"],
   li.current {
     @include tablet {
-      border-bottom: 4px solid $brand_color;
+      border-bottom: 4px solid $pink;
       order: 1;
     }
 

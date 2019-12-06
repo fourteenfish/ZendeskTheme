@@ -134,7 +134,7 @@
 
     .organization-unsubscribe {
       background-color: $button-color;
-      color: $brand_text_color;
+      color: $white;
     }
 
     & + .requests-search-info {
@@ -203,7 +203,7 @@
 
     background: $button-color;
     border-radius: 4px;
-    color: $brand_text_color;
+    color: $white;
     display: inline-block;
     font-size: 12px;
     line-height: 2.34; //Taken from Zendesk garden bedrock

@@ -106,7 +106,7 @@
     }
 
     .icon-comments {
-      color: $brand_color;
+      color: $pink;
       content: "\1F4AC";
       display: inline-block;
       font-size: 18px;
@@ -162,8 +162,8 @@
 
   &-vote {
     background: transparent;
-    border: 1px solid $brand_color;
-    color: $brand_color;
+    border: 1px solid $pink;
+    color: $pink;
     margin: 10px 5px;
     min-width: 90px;
     width: auto;
@@ -186,18 +186,18 @@
     &:focus,
     &:active {
       background-color: transparent;
-      color: $brand_color;
+      color: $pink;
     }
 
     &:hover {
-      background-color: $brand_color;
+      background-color: $pink;
     }
 
     &:hover::before,
     &:hover::after,
     &[aria-selected="true"]::before,
     &[aria-selected="true"]::after {
-      color: $brand_text_color;
+      color: $white;
     }
   }
 
@@ -244,7 +244,7 @@
 
   &-unsubscribe {
     background-color: $button-color;
-    color: $brand_text_color;
+    color: $white;
     text-decoration: none;
 
     &:hover {
@@ -270,8 +270,8 @@
 
     &.current-article,
     &:hover {
-      background-color: $brand_color;
-      color: $brand_text_color;
+      background-color: $pink;
+      color: $white;
       text-decoration: none;
     }
   }
