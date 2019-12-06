@@ -1,6 +1,6 @@
 {
   "name": "fourteenfish_theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "git@github.com:fourteenfish/ZendeskTheme.git",
   "dependencies": {
     "node-fetch": "^2.1.2"
