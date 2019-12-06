@@ -11,8 +11,14 @@ $visited-link-color: zass-darken($link_color, 20%);
 $hover-button-color: zass-darken($brand_color, 20%);
 $secondary-text-color: zass-lighten($text_color, 20%);
 
-$primary-shade: zass-darken($background_color, 3%); //#f8f8f8 for the default background_color
-$secondary-shade: zass-darken($background_color, 5%); //#f2f2f2 for the default background_color
+$primary-shade: zass-darken(
+  $background_color,
+  3%
+); //#f8f8f8 for the default background_color
+$secondary-shade: zass-darken(
+  $background_color,
+  5%
+); //#f2f2f2 for the default background_color
 
 $font-size-bigger: 16px;
 $font-size-base: 15px;
@@ -28,14 +34,23 @@ $input-font-size: 14px;
 $field-text-color: #999;
 $field-text-focus-color: #555;
 
+$greydarkest: #403f3f; // All greys are Hue=30 Saturation=2 in Sketch HSB
+$greydarker: #6b6a69;
+$greydark: #959492;
+$greymid: #c2c0be;
+$greylight: #e1dfdc;
+$greylighter: #f4f2f0;
+
 // Breakpoints variables
 $tablet-width: 768px;
 $desktop-width: 1024px;
 $max-width-container: 1160px;
 
 // Fonts
-$heading_font: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif !default;
-$text_font: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif !default;
+$heading_font: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+  sans-serif !default;
+$text_font: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+  sans-serif !default;
 $font-weight-base: 400;
 $font-weight-light: 300;
 $font-weight-semibold: 600;

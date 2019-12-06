@@ -11,7 +11,7 @@ $header-height: 100px;
 }
 
 .logo {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .logo img {
@@ -19,14 +19,16 @@ $header-height: 100px;
 }
 
 .user-nav {
-  @include tablet { position: relative; }
+  @include tablet {
+    position: relative;
+  }
   display: inline-block;
   position: absolute;
   white-space: nowrap;
 
   &[aria-expanded="true"] {
     background-color: #fff;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .15), 0 4px 10px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
     border: solid 1px #ddd;
     right: 0;
     left: 0;
@@ -53,7 +55,9 @@ $header-height: 100px;
     padding: 0 20px 0 0;
     width: auto;
 
-    [dir="rtl"] & { padding: 0 0 0 20px;}
+    [dir="rtl"] & {
+      padding: 0 0 0 20px;
+    }
 
     &:hover,
     &:focus,
@@ -63,11 +67,15 @@ $header-height: 100px;
       text-decoration: underline;
     }
 
-    &.login { display: inline-block; }
+    &.login {
+      display: inline-block;
+    }
   }
 
   .menu-button {
-    @include tablet { display: none; }
+    @include tablet {
+      display: none;
+    }
     background: none;
     border: 0;
     color: $link_color;
