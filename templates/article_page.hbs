@@ -233,5 +233,13 @@
       </div>
       {{/if}}
     </article>
+    <aside>
+      <h3>This article applies to</h3>
+      <ul class="tags">
+        {{#each article.labels}}
+        <li class="tag">{{identifier}}</li>
+        {{/each}}
+      </ul>
+    </aside>
   </div>
 </div>
