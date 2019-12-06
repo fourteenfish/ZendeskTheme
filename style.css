@@ -441,7 +441,7 @@ ul {
 }
 
 .form .suggestion-list li a:visited {
-  color: darken($link_color, 20%);
+  color: darken($link_color, 10%);
 }
 
 /***** Header *****/
@@ -500,9 +500,10 @@ ul {
 
 .nav-wrapper a {
   border: 0;
-  color: $link_color;
+  color: #cf2d81;
   display: none;
   font-size: 14px;
+  font-weight: 600;
   padding: 0 20px 0 0;
   width: auto;
 }
@@ -1377,7 +1378,7 @@ ul {
 }
 
 .article-body a:visited {
-  color: darken($link_color, 20%);
+  color: darken($link_color, 10%);
 }
 
 .article-body code {
@@ -1914,7 +1915,7 @@ ul {
 }
 
 .comment-body a:visited {
-  color: darken($link_color, 20%);
+  color: darken($link_color, 10%);
 }
 
 .comment-body code {
@@ -2225,7 +2226,7 @@ ul {
 }
 
 .striped-list-title:visited {
-  color: darken($link_color, 20%);
+  color: darken($link_color, 10%);
 }
 
 .striped-list .meta-group {
@@ -2496,7 +2497,7 @@ ul {
 }
 
 .post-body a:visited {
-  color: darken($link_color, 20%);
+  color: darken($link_color, 10%);
 }
 
 .post-body code {
