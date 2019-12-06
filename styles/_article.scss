@@ -261,18 +261,18 @@
   }
 
   &-item {
-    border-radius: 4px;
     color: $text_color;
     display: block;
     font-weight: $font-weight-base;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 18px;
 
     &.current-article,
     &:hover {
-      background-color: $pink;
-      color: $white;
-      text-decoration: none;
+      color: $pink;
+    }
+
+    &.current-article {
+      font-weight: $font-weight-semibold;
     }
   }
 }
