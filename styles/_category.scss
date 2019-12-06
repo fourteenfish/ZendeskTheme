@@ -31,7 +31,7 @@
   }
 
   &-title {
-    margin-bottom: 0;
+    margin: 20px 0 4px 0;
     font-size: 18px;
     font-weight: $font-weight-semibold;
 
@@ -49,7 +49,7 @@
 .article-list {
   &-item {
     font-size: $font-size-bigger;
-    padding: 15px 0;
+    padding: 12px 0 0 0;
 
     a {
       color: $text_color;
