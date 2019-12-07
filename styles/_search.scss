@@ -24,7 +24,6 @@
     }
   }
 
-
   &::before {
     @extend .icon;
     @include vertical-align;
@@ -43,5 +42,7 @@
 
   &-full input[type="search"] {
     border: 1px solid #fff;
+    height: 40px;
+    font-size: 16px;
   }
 }
