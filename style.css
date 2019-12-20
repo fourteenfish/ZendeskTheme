@@ -1356,22 +1356,31 @@ ul {
 .article-body img {
   height: auto;
   max-width: 100%;
+  margin: 35px 0 25px 0;
+  box-shadow: 0px 0px 30px -15px rgba(0, 0, 70, 0.2);
 }
 
-.article-body ul, .article-body ol {
+.article-body ul,
+.article-body ol {
   padding-left: 20px;
   list-style-position: outside;
   margin: 20px 0 20px 20px;
 }
 
-[dir="rtl"] .article-body ul, [dir="rtl"] .article-body ol {
+[dir="rtl"] .article-body ul, [dir="rtl"]
+.article-body ol {
   padding-right: 20px;
   padding-left: 0;
   margin-left: 0;
   margin-right: 20px;
 }
 
-.article-body ul > ul, .article-body ol > ol, .article-body ol > ul, .article-body ul > ol, .article-body li > ul, .article-body li > ol {
+.article-body ul > ul,
+.article-body ol > ol,
+.article-body ol > ul,
+.article-body ul > ol,
+.article-body li > ul,
+.article-body li > ol {
   margin: 0;
 }
 
@@ -1893,22 +1902,31 @@ ul {
 .comment-body img {
   height: auto;
   max-width: 100%;
+  margin: 35px 0 25px 0;
+  box-shadow: 0px 0px 30px -15px rgba(0, 0, 70, 0.2);
 }
 
-.comment-body ul, .comment-body ol {
+.comment-body ul,
+.comment-body ol {
   padding-left: 20px;
   list-style-position: outside;
   margin: 20px 0 20px 20px;
 }
 
-[dir="rtl"] .comment-body ul, [dir="rtl"] .comment-body ol {
+[dir="rtl"] .comment-body ul, [dir="rtl"]
+.comment-body ol {
   padding-right: 20px;
   padding-left: 0;
   margin-left: 0;
   margin-right: 20px;
 }
 
-.comment-body ul > ul, .comment-body ol > ol, .comment-body ol > ul, .comment-body ul > ol, .comment-body li > ul, .comment-body li > ol {
+.comment-body ul > ul,
+.comment-body ol > ol,
+.comment-body ol > ul,
+.comment-body ul > ol,
+.comment-body li > ul,
+.comment-body li > ol {
   margin: 0;
 }
 
@@ -2475,22 +2493,31 @@ ul {
 .post-body img {
   height: auto;
   max-width: 100%;
+  margin: 35px 0 25px 0;
+  box-shadow: 0px 0px 30px -15px rgba(0, 0, 70, 0.2);
 }
 
-.post-body ul, .post-body ol {
+.post-body ul,
+.post-body ol {
   padding-left: 20px;
   list-style-position: outside;
   margin: 20px 0 20px 20px;
 }
 
-[dir="rtl"] .post-body ul, [dir="rtl"] .post-body ol {
+[dir="rtl"] .post-body ul, [dir="rtl"]
+.post-body ol {
   padding-right: 20px;
   padding-left: 0;
   margin-left: 0;
   margin-right: 20px;
 }
 
-.post-body ul > ul, .post-body ol > ol, .post-body ol > ul, .post-body ul > ol, .post-body li > ul, .post-body li > ol {
+.post-body ul > ul,
+.post-body ol > ol,
+.post-body ol > ul,
+.post-body ul > ol,
+.post-body li > ul,
+.post-body li > ol {
   margin: 0;
 }
 
